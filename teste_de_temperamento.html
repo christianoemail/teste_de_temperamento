@@ -1,0 +1,435 @@
+<html>
+  <head>
+
+<style>
+form {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+form h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+form label {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #555;
+}
+
+form input[type="text"],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0062cc;
+}
+
+.total-label {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.total-value {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #333;
+}
+</style>
+
+    <meta charset="UTF-8">
+    <title>Teste de Temperamento</title>
+  </head>
+  <body>
+<h1 style="text-align:center">Perfil Temperamento</h1>
+<p><h4 style="text-align:center">Escolha, de acordo com cada afirmação abaixo, "Concordo" ou "Não Concordo".</p>
+<p>&nbsp;</p>
+    <form onsubmit="return false">
+
+<label for='campo1'>Eu reajo rápido quando sou apresentado a uma idéia, pessoa ou situação</label><select id='campo1' name='campo1'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo2'>Eu reajo devagar quando sou apresentado a uma idéia, pessoa ou situação</label><select id='campo2' name='campo2'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo3'>Eu reajo fortemente (em intensidade) quando sou apresentado a idéia, pessoa ou situação</label><select id='campo3' name='campo3'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo4'>Eu não reajo com intensidade quando sou apresentado a idéia, pessoa ou situação</label><select id='campo4' name='campo4'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo5'>Eu quero começar a agir imediatamente com um a idéia, pessoa ou situação</label><select id='campo5' name='campo5'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo6'>Quando sou apresentado a uma idéias pessoa ou situação eu permaneço calmo e espero para reagir</label><select id='campo6' name='campo6'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo7'>Eu não reajo imediatamente, mas a minha reação cresce continuamente em intensidade</label><select id='campo7' name='campo7'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo8'>Impressões dura muito tempo</label><select id='campo8' name='campo8'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo9'>Impressões duram pouco tempo</label><select id='campo9' name='campo9'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo10'>Aceitável</label><select id='campo10' name='campo10'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo11'>Aventureira</label><select id='campo11' name='campo11'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo12'>Rugas de preocupação</label><select id='campo12' name='campo12'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo13'>Introspectiva</label><select id='campo13' name='campo13'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo14'>Facilmente pode ser provocado</label><select id='campo14' name='campo14'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo15'>Se provocada irá retaliar</label><select id='campo15' name='campo15'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo16'>Séria</label><select id='campo16' name='campo16'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo17'>Gosta de ser adulado</label><select id='campo17' name='campo17'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo18'>Gosta de adular</label><select id='campo18' name='campo18'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo19'>Cuidadosa</label><select id='campo19' name='campo19'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo20'>interior</label><select id='campo20' name='campo20'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo21'>Introvertido</label><select id='campo21' name='campo21'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo22'>Olho de falcão para detalhes</label><select id='campo22' name='campo22'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo23'>Distraído</label><select id='campo23' name='campo23'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo24'>Propenso a reflexão</label><select id='campo24' name='campo24'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo25'>Determinado</label><select id='campo25' name='campo25'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo26'>Confiável</label><select id='campo26' name='campo26'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo27'>Relutante</label><select id='campo27' name='campo27'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo28'>Deslocada</label><select id='campo28' name='campo28'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo29'>Adora companhia</label><select id='campo29' name='campo29'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo30'>Gosta de pessoas</label><select id='campo30' name='campo30'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo31'>Duvidosa</label><select id='campo31' name='campo31'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo32'>Orientada pelas pessoas</label><select id='campo32' name='campo32'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo33'>Desordem te irrita</label><select id='campo33' name='campo33'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo34'>Abomina injustiça</label><select id='campo34' name='campo34'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo35'>Justo</label><select id='campo35' name='campo35'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo36'>Raiva com facilidade</label><select id='campo36' name='campo36'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo37'>Entusiasmada</label><select id='campo37' name='campo37'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo38'>Extravertida</label><select id='campo38' name='campo38'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo39'>Solitária</label><select id='campo39' name='campo39'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo40'>Questionadora</label><select id='campo40' name='campo40'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo41'>Centro das atenções</label><select id='campo41' name='campo41'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo42'>Vingativa</label><select id='campo42' name='campo42'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo43'>Exagera com facilidade</label><select id='campo43' name='campo43'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo44'>Auto proclamada líder</label><select id='campo44' name='campo44'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo45'>Líder servidor</label><select id='campo45' name='campo45'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo46'>Carismática</label><select id='campo46' name='campo46'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo47'>Gananciosa</label><select id='campo47' name='campo47'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo48'>Invejosa</label><select id='campo48' name='campo48'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo49'>Feliz</label><select id='campo49' name='campo49'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo50'>Otimista</label><select id='campo50' name='campo50'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo51'>Propensa a ficar doente</label><select id='campo51' name='campo51'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo52'>Facilmente pode ser desencorajado</label><select id='campo52' name='campo52'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo53'>Cabeça dura</label><select id='campo53' name='campo53'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo54'>Racional</label><select id='campo54' name='campo54'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo55'>Diplomática</label><select id='campo55' name='campo55'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo56'>Tende a deixar escapar as coisas</label><select id='campo56' name='campo56'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo57'>Desconfiado</label><select id='campo57' name='campo57'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo58'>Pacifista</label><select id='campo58' name='campo58'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo59'>Criativa</label><select id='campo59' name='campo59'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo60'>Aguenta tranco</label><select id='campo60' name='campo60'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo61'>Paciente</label><select id='campo61' name='campo61'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo62'>Crítico posterior das coisas</label><select id='campo62' name='campo62'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo63'>Ama a paz e a quietude</label><select id='campo63' name='campo63'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo64'>Obediente</label><select id='campo64' name='campo64'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo65'>Odeia conflito</label><select id='campo65' name='campo65'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo66'>Ama debater</label><select id='campo66' name='campo66'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo67'>Argumentativa</label><select id='campo67' name='campo67'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo68'>Sentimental</label><select id='campo68' name='campo68'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo69'>Que agrada ao público</label><select id='campo69' name='campo69'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo70'>Demorar a pegar no tranco</label><select id='campo70' name='campo70'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo71'>Faz amigos facilmente</label><select id='campo71' name='campo71'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo72'>reticente</label><select id='campo72' name='campo72'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo73'>Lógica</label><select id='campo73' name='campo73'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo74'>Ponderada</label><select id='campo74' name='campo74'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo75'>Ama o silêncio</label><select id='campo75' name='campo75'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo76'>Popular</label><select id='campo76' name='campo76'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo77'>Festas</label><select id='campo77' name='campo77'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo78'>Prefere ficar sozinha</label><select id='campo78' name='campo78'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo79'>Artística</label><select id='campo79' name='campo79'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo80'>Poética</label><select id='campo80' name='campo80'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo81'>Pensadora</label><select id='campo81' name='campo81'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo82'>Faladora</label><select id='campo82' name='campo82'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo83'>Odeia sentimentalismo</label><select id='campo83' name='campo83'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo84'>Não empática</label><select id='campo84' name='campo84'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo85'>Orientada as regras</label><select id='campo85' name='campo85'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo86'>Perseverante</label><select id='campo86' name='campo86'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo87'>Namorador</label><select id='campo87' name='campo87'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo88'>Reservado</label><select id='campo88' name='campo88'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo89'>Facilmente cai em fofoca</label><select id='campo89' name='campo89'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo90'>Sempre certo</label><select id='campo90' name='campo90'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo91'>Aparências importam</label><select id='campo91' name='campo91'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo92'>Idealista</label><select id='campo92' name='campo92'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo93'>Sem medo de agir</label><select id='campo93' name='campo93'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo94'>Ama variedade</label><select id='campo94' name='campo94'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo95'>Demonstra afeição</label><select id='campo95' name='campo95'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo96'>Não demonstra afeição</label><select id='campo96' name='campo96'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo97'>Indiferente</label><select id='campo97' name='campo97'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo98'>Cada hora quer uma coisa</label><select id='campo98' name='campo98'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo99'>Difícil de agradar</label><select id='campo99' name='campo99'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo100'>Sóbrio e prático</label><select id='campo100' name='campo100'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo101'>Ranzinza</label><select id='campo101' name='campo101'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo102'>Composta</label><select id='campo102' name='campo102'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo103'>Deliberada</label><select id='campo103' name='campo103'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo104'>Brincalhão</label><select id='campo104' name='campo104'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo105'>Obstinado</label><select id='campo105' name='campo105'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo106'>Pessimista</label><select id='campo106' name='campo106'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo107'>Tolerante</label><select id='campo107' name='campo107'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo108'>Corajoso</label><select id='campo108' name='campo108'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo109'>Tímido</label><select id='campo109' name='campo109'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo110'>Perdoar e esquecer</label><select id='campo110' name='campo110'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo111'>Vamos esperar e ver</label><select id='campo111' name='campo111'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo112'>Facilmente irritada</label><select id='campo112' name='campo112'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo113'>Prefere seguir</label><select id='campo113' name='campo113'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo114'>Imprudente</label><select id='campo114' name='campo114'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo115'>Intenso</label><select id='campo115' name='campo115'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo116'>Pavio curto</label><select id='campo116' name='campo116'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo117'>Franco</label><select id='campo117' name='campo117'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo118'>Impaciente</label><select id='campo118' name='campo118'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo119'>Equilibrada</label><select id='campo119' name='campo119'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo120'>Inconstante</label><select id='campo120' name='campo120'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo121'>O copo está meio cheio</label><select id='campo121' name='campo121'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo122'>O copo está meio vazio</label><select id='campo122' name='campo122'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo123'>Pessoa com força irresistível</label><select id='campo123' name='campo123'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo124'>Agora é a hora(impulsivo)</label><select id='campo124' name='campo124'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo125'>Estabanado?</label><select id='campo125' name='campo125'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo126'>Gentil</label><select id='campo126' name='campo126'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo127'>Facilmente arrastado para um debate</label><select id='campo127' name='campo127'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo128'>Calmo interiormente</label><select id='campo128' name='campo128'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo129'>Boa praça (gente boa)</label><select id='campo129' name='campo129'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo130'>Para continuidade do progresso</label><select id='campo130' name='campo130'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo131'>Conectada com o sentimento das pessoas</label><select id='campo131' name='campo131'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo132'>Determinado a fazer algo mesmo quando outros aconselham não fazer</label><select id='campo132' name='campo132'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo133'>Do contra</label><select id='campo133' name='campo133'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo134'>Destemido</label><select id='campo134' name='campo134'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo135'>Ambicioso</label><select id='campo135' name='campo135'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo136'>Radiante</label><select id='campo136' name='campo136'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo137'>Controle de suas emoções</label><select id='campo137' name='campo137'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo138'>Orientada a ação</label><select id='campo138' name='campo138'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo139'>Confortável sendo parte de um grupo</label><select id='campo139' name='campo139'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo140'>Gosta de ser um encarregado do grupo</label><select id='campo140' name='campo140'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo141'>Não gosta de grupos</label><select id='campo141' name='campo141'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo142'>Gosta de fazer parte das coisas</label><select id='campo142' name='campo142'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo143'>Rápido e decisivo</label><select id='campo143' name='campo143'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo144'>Robusto</label><select id='campo144' name='campo144'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo145'>Cordial</label><select id='campo145' name='campo145'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo146'>Gosta de mudança</label><select id='campo146' name='campo146'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo147'>Prefere rotina</label><select id='campo147' name='campo147'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo148'>Aberto e sociável</label><select id='campo148' name='campo148'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo149'>Curiosa</label><select id='campo149' name='campo149'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo150'>Crítico</label><select id='campo150' name='campo150'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo151'>Impulsivo</label><select id='campo151' name='campo151'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo152'>Metódico</label><select id='campo152' name='campo152'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo153'>Não tem medo de situações difíceis</label><select id='campo153' name='campo153'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo154'>Toma iniciativa</label><select id='campo154' name='campo154'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo155'>Fazer as coisas de seu jeito</label><select id='campo155' name='campo155'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo156'>Autoconfiante</label><select id='campo156' name='campo156'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo157'>Auto suficiente</label><select id='campo157' name='campo157'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo158'>Rápido para detectar ou reagir a um sinal, influência</label><select id='campo158' name='campo158'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo159'>Facilmente magoável</label><select id='campo159' name='campo159'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo160'>Tendência para ser superficial</label><select id='campo160' name='campo160'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo161'>Se adapta facilmente</label><select id='campo161' name='campo161'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo162'>Reclusiva</label><select id='campo162' name='campo162'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo163'>Inseguro</label><select id='campo163' name='campo163'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo164'>Muito cuidadoso</label><select id='campo164' name='campo164'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo165'>Tende a desencorajar</label><select id='campo165' name='campo165'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo166'>Exclusivo?</label><select id='campo166' name='campo166'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo167'>Privado, reservado</label><select id='campo167' name='campo167'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo168'>Mediador</label><select id='campo168' name='campo168'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo169'>Indeciso</label><select id='campo169' name='campo169'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo170'>Constante</label><select id='campo170' name='campo170'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo171'>Competitivo</label><select id='campo171' name='campo171'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo172'>Se sacrifica</label><select id='campo172' name='campo172'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo173'>Respeitoso</label><select id='campo173' name='campo173'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo174'>Adaptável</label><select id='campo174' name='campo174'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo175'>Analítico</label><select id='campo175' name='campo175'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo176'>Persistente</label><select id='campo176' name='campo176'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo177'>Cheio de energia</label><select id='campo177' name='campo177'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo178'>Riso fácil</label><select id='campo178' name='campo178'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo179'>Espontâneo</label><select id='campo179' name='campo179'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo180'>Hesitante</label><select id='campo180' name='campo180'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo181'>Organizado</label><select id='campo181' name='campo181'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo182'>Fala livremente com honestidade</label><select id='campo182' name='campo182'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo183'>Ordeiro</label><select id='campo183' name='campo183'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo184'>Mandona</label><select id='campo184' name='campo184'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo185'>Fiel</label><select id='campo185' name='campo185'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo186'>Idealista</label><select id='campo186' name='campo186'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo187'>Inofensivo</label><select id='campo187' name='campo187'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo188'>Sarcástico</label><select id='campo188' name='campo188'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo189'>Profundo</label><select id='campo189' name='campo189'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo190'>Impulsionado</label><select id='campo190' name='campo190'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo191'>Motivador</label><select id='campo191' name='campo191'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo192'>Atenciosa com os outros</label><select id='campo192' name='campo192'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo193'>Mandão</label><select id='campo193' name='campo193'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo194'>Bom comportamento</label><select id='campo194' name='campo194'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo195'>Cabeça dura</label><select id='campo195' name='campo195'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo196'>Perfeccionista</label><select id='campo196' name='campo196'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo197'>Mantém a paz entre as pessoas</label><select id='campo197' name='campo197'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo198'>Não passional</label><select id='campo198' name='campo198'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo199'>Controladora</label><select id='campo199' name='campo199'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo200'>Mantém a calma em uma situação crítica</label><select id='campo200' name='campo200'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo201'>Espiritual</label><select id='campo201' name='campo201'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo202'>Ama com paixão</label><select id='campo202' name='campo202'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo203'>Faz após pensar com muito cuidado</label><select id='campo203' name='campo203'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo204'>Procrastinador</label><select id='campo204' name='campo204'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo205'>Dócil</label><select id='campo205' name='campo205'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo206'>Cabeça dura</label><select id='campo206' name='campo206'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo207'>Precisa descansar</label><select id='campo207' name='campo207'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo208'>Precisa de reconhecimento</label><select id='campo208' name='campo208'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo209'>Precisa de encorajamento</label><select id='campo209' name='campo209'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo210'>Precisa de motivação</label><select id='campo210' name='campo210'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo211'>Precisa de amigos</label><select id='campo211' name='campo211'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo212'>Focado e intenso</label><select id='campo212' name='campo212'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo213'>Precisa de diversão</label><select id='campo213' name='campo213'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo214'>Gosta de estruturas e procedimentos</label><select id='campo214' name='campo214'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo215'>Precisa de encorajamento</label><select id='campo215' name='campo215'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo216'>Não confronta ativamente as pessoas</label><select id='campo216' name='campo216'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo217'>Confrontador</label><select id='campo217' name='campo217'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo218'>Lida com as coisas de um jeito prático</label><select id='campo218' name='campo218'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo219'>Imprevisível</label><select id='campo219' name='campo219'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo220'>Cauteloso em situações novas</label><select id='campo220' name='campo220'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo221'>Muito focado</label><select id='campo221' name='campo221'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo222'>Gosta de comprar e comer fora</label><select id='campo222' name='campo222'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo223'>Gosta de ser mandado</label><select id='campo223' name='campo223'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo224'>Irá subjugar os próprios desejos para ajudar os outros</label><select id='campo224' name='campo224'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo225'>Orientado a processos</label><select id='campo225' name='campo225'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo226'>Orientado a objetivos</label><select id='campo226' name='campo226'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo227'>Confortável no presente momento</label><select id='campo227' name='campo227'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo228'>Orientado ao futuro</label><select id='campo228' name='campo228'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo229'>Pessoa muito sociável</label><select id='campo229' name='campo229'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo230'>Brincalhão</label><select id='campo230' name='campo230'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+<label for='campo231'>Caseiro</label><select id='campo231' name='campo231'><option value='nao-respondido'>Ainda não respondido</option><option value='concordo'>Concordo</option><option value='nao-concordo'>Não concordo</option></select><br>
+
+<br/>
+<br/>
+	<button onclick="calcula()">Calcular</button>
+<br/>
+<br/>
+<br/>
+  <label for="total_colerico">TOTAL COLÉRICO:</label>
+  <input type="text" id="total_colerico" name="total_colerico"><br>
+
+  <label for="total_melancolico">TOTAL MELANCÓLICO:</label>
+  <input type="text" id="total_melancolico" name="total_melancolico"><br>
+
+  <label for="total_sanguineo">TOTAL SANGUÍNEO:</label>
+  <input type="text" id="total_sanguineo" name="total_sanguineo"><br>
+
+  <label for="total_fleumatico">TOTAL FLEUMÁTICO:</label>
+  <input type="text" id="total_fleumatico" name="total_fleumatico"><br>
+
+
+
+    </form>
+  </body>
+</html>
+
+
+
+<script>
+
+var campos_colerico = [1, 3, 5, 8, 11, 14, 15, 25, 30, 36, 37, 38, 42, 43, 44, 50, 53, 54, 56, 60, 66, 67, 73, 81, 83, 84, 86, 90, 92, 96, 105, 108, 112, 115, 116, 117, 118, 121, 123, 124, 125, 127, 130, 132, 133, 134, 135, 138, 140, 143, 144, 153, 154, 155, 156, 157, 166, 167, 171, 175, 176, 182, 190, 191, 193, 195, 199, 206, 208, 212, 217, 218, 221, 223, 226];
+
+var campos_melancolico = [2, 7, 8, 12, 13, 16, 19, 20, 21, 22, 24, 27, 28, 31, 33, 34, 39, 40, 42, 48, 51, 52, 54, 57, 62, 63, 70, 72, 73, 74, 75, 78, 79, 80, 81, 88, 98, 99, 101, 106, 109, 111, 122, 131, 133, 141, 150, 152, 158, 162, 164, 165, 169, 172, 175, 180, 181, 183, 185, 186, 189, 192, 196, 201, 203, 207, 209, 214, 215, 220, 221, 226];
+
+var campos_sanguineo = [1, 3, 5, 9, 10, 11, 14, 17, 18, 23, 26, 29, 30, 32, 36, 37, 38, 41, 43, 46, 47, 48, 49, 50, 56, 59, 68, 69, 71, 76, 77, 79, 80, 82, 87, 89, 91, 92, 93, 94, 95, 104, 107, 110, 112, 113, 114, 116, 117, 118, 120, 121, 129, 131, 136, 138, 139, 142, 144, 145, 146, 148, 149, 151, 156, 158, 159, 160, 174, 177, 178, 179, 202, 205, 211, 213, 219, 222, 225, 227, 229, 230];
+
+var campos_fleumatico = [2, 4, 6, 9, 10, 21, 26, 28, 30, 31, 35, 39, 45, 52, 55, 58, 61, 63, 64, 65, 68, 70, 72, 75, 78, 85, 88, 97, 98, 100, 102, 103, 106, 107, 110, 111, 113, 119, 122, 126, 128, 129, 131, 137, 139, 147, 152, 159, 161, 165, 168, 170, 172, 173, 174, 184, 185, 187, 188, 194, 197, 198, 200, 203, 204, 205, 209, 210, 214, 216, 218, 220, 224, 225, 227, 231];
+
+
+function campos_nao_preenchidos(){
+	alert("Todos os campos devem estar CONCORDO ou NÃO CONCORDO. Existe campo AINDA NÃO RESPONDIDO!");
+	return false;
+}
+
+
+function calcula() {
+
+	//Sanguineo
+	total_sanguineo_v = 0;
+	var i = 0;
+	var selectElements = document.querySelectorAll('select');
+	while (i < campos_sanguineo.length) {
+		var campoAtual = campos_sanguineo[i];
+		var selectAtual = selectElements[campoAtual - 1];
+		var valorSelecionado = selectAtual.value;
+  		if(valorSelecionado=="concordo"){
+			total_sanguineo_v++;
+		}
+  		if(valorSelecionado=="nao-respondido"){
+//			return campos_nao_preenchidos();
+		}
+	  	i++;
+  	}
+
+	//Fleumatico
+	total_fleumatico_v = 0;
+	var i = 0;
+	var selectElements = document.querySelectorAll('select');
+	while (i < campos_fleumatico.length) {
+		var campoAtual = campos_fleumatico[i];
+		var selectAtual = selectElements[campoAtual - 1];
+		var valorSelecionado = selectAtual.value;
+  		if(valorSelecionado=="concordo"){
+			total_fleumatico_v++;
+		}
+  		if(valorSelecionado=="nao-respondido"){
+//			return campos_nao_preenchidos();
+		}
+	  	i++;
+  	}
+
+	//Colerico
+	total_colerico_v = 0;
+	var i = 0;
+	var selectElements = document.querySelectorAll('select');
+	while (i < campos_colerico.length) {
+		var campoAtual = campos_colerico[i];
+		var selectAtual = selectElements[campoAtual - 1];
+		var valorSelecionado = selectAtual.value;
+  		if(valorSelecionado=="concordo"){
+			total_colerico_v++;
+		}
+  		if(valorSelecionado=="nao-respondido"){
+//			return campos_nao_preenchidos();
+		}
+	  	i++;
+  	}
+
+	//Melancolico
+	total_melancolico_v = 0;
+	var i = 0;
+	var selectElements = document.querySelectorAll('select');
+	while (i < campos_melancolico.length) {
+		var campoAtual = campos_melancolico[i];
+		var selectAtual = selectElements[campoAtual - 1];
+		var valorSelecionado = selectAtual.value;
+  		if(valorSelecionado=="concordo"){
+			total_melancolico_v++;
+		}
+  		if(valorSelecionado=="nao-respondido"){
+//			return campos_nao_preenchidos();
+		}
+	  	i++;
+  	}
+
+	const campoTotalColerico = document.getElementById('total_colerico');
+	const campoTotalSanguineo= document.getElementById('total_sanguineo');
+	const campoTotalMelancolico = document.getElementById('total_melancolico');
+	const campoTotalFleumatico = document.getElementById('total_fleumatico');
+
+	campoTotalColerico.value = total_colerico_v;
+	campoTotalSanguineo.value = total_sanguineo_v;
+	campoTotalMelancolico.value = total_melancolico_v;
+	campoTotalFleumatico.value = total_fleumatico_v;
+
+}
+</script>
